@@ -6,17 +6,17 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.chetan.foodrecipe2.AppExecutors;
-import com.chetan.foodrecipe2.models.Recipe;
-import com.chetan.foodrecipe2.persistence.RecipeDao;
-import com.chetan.foodrecipe2.persistence.RecipeDatabase;
-import com.chetan.foodrecipe2.requests.ServiceGenerator;
-import com.chetan.foodrecipe2.requests.responses.ApiResponse;
-import com.chetan.foodrecipe2.requests.responses.RecipeResponse;
-import com.chetan.foodrecipe2.requests.responses.RecipeSearchResponse;
-import com.chetan.foodrecipe2.util.Constants;
-import com.chetan.foodrecipe2.util.NetworkBoundResource;
-import com.chetan.foodrecipe2.util.Resource;
+import com.selafitriadewi.project_uas.AppExecutors;
+import com.selafitriadewi.project_uas.models.Recipe;
+import com.selafitriadewi.project_uas.persistence.RecipeDao;
+import com.selafitriadewi.project_uas.persistence.RecipeDatabase;
+import com.selafitriadewi.project_uas.requests.ServiceGenerator;
+import com.selafitriadewi.project_uas.requests.responses.ApiResponse;
+import com.selafitriadewi.project_uas.requests.responses.RecipeResponse;
+import com.selafitriadewi.project_uas.requests.responses.RecipeSearchResponse;
+import com.selafitriadewi.project_uas.util.Constants;
+import com.selafitriadewi.project_uas.util.NetworkBoundResource;
+import com.selafitriadewi.project_uas.util.Resource;
 
 import java.util.List;
 
@@ -138,6 +138,8 @@ public class RecipeRepository {
         }.getAsLiveData();
     }
 }
+
+
 
 
 
